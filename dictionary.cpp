@@ -15,7 +15,7 @@ using namespace std;
 
 static const int QuoteMagicNumber = 26; // Return value of quote
 
-// Assigns indices to alphabets and quote and returns it
+// Assigns indices to alphabets and quote then returns it
 int dictionary::alphabetToIndex(char alphabet)
 {
     if (alphabet >= 'A' && alphabet <= 'Z')
